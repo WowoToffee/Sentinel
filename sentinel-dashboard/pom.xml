@@ -101,7 +101,13 @@
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
-            <scope>test</scope>
+<!--            <scope>test</scope>-->
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-api</artifactId>
+            <version>1.2.1</version>
         </dependency>
         <!-- for Apollo rule publisher sample -->
         <dependency>
